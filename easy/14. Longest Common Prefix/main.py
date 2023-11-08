@@ -28,5 +28,6 @@ class Solution:
                     common_prefix += str_min_length[i]
             return common_prefix
 
+
 test = Solution()
 print(test.longestCommonPrefix(strs))
