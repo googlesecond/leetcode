@@ -29,5 +29,6 @@ class Solution:
             return common_prefix
 
 
+
 test = Solution()
 print(test.longestCommonPrefix(strs))
