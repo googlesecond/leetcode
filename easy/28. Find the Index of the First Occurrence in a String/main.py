@@ -12,6 +12,7 @@ class Solution:
                             n += 1
                             continue
                         else:
+                            i += n
                             break
                     if n == length:
                         return i
