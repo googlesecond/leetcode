@@ -12,12 +12,10 @@ class Solution:
                 else:
                     nums = nums[:middle]
             else:
-                if nums[middle] == target:  
+                if nums[middle] == target or nums[middle] > target:  
                     return middle + mark
-                elif nums[middle] < target:
-                    return middle + mark + 1
                 else:
-                    return middle + mark
+                    return middle + mark + 1
 
 test = Solution()
 print(test.searchInsert([1,3,5,7,9,10], 9))
